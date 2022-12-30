@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}.background{
+    height: 100vh;
+    width: 100vw;
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.body{
+    height: 80vh;
+    width: 20vw;
+    background-color: aliceblue;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    }
+
+
+    .top{
+    height:40vh;
+    width: 20vw;
+    background-image: url(../minionpic.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+} 
+button{
+    margin-top: 20vh;
+    margin-left: 15vh;
+    border-radius: 10px;
+    font-size: large;
+    height: 4vh;
+    width: 6vw;
+    color: aliceblue;
+    background-color: rgb(13, 107, 10);
+     border-color: green;
+    transform: 0.2s;
+}
+ button:hover{
+    transform:scale(1.2)
+}
+

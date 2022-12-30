@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    height: 90vh;
+    width: 90vw;
+    background-image: url(https://images.unsplash.com/photo-1619572945516-7598cb601a11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJsdWUlMjBjYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+     box-sizing: border-box; 
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+h1{
+    font-size: x-large;
+    font-style: italic;
+    padding: 20px;
+    padding-top: 10px;
+    color: white;
+    
+}
+.topcenter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.top{
+    font-size: large;
+    font-style: italic;
+    margin: 20px;
+    margin-top:-58px;
+    font-weight:bold;  
+    margin-left: 20px;
+    color: white;
+}
+.topend{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 20vh;
+    margin-right: -50vh;
+    margin-top: -9.7vh;
+    color: white;
+}
+.end{
+    font-size: large;
+    font-style: italic;
+    margin: 15px;
+    font-weight:bold;    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45vh;
+    color: white;
+}
+.middle{
+    font-size:xx-large;
+    font-style: italic;
+    margin: 15px;
+    font-weight:bold; 
+    font-size: 8vh;
+    margin-bottom: 70vh;
+    color: white;
+}
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size:medium;
+    font-style:normal;
+    margin: 15px;
+    margin-left: -40vh;
+    margin-bottom:55vh;
+    font-size: 3vh;
+    text-decoration: underline;
+    color: white;
+}
+.custom{
+    color: aliceblue;
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+    
+    
+}
+.existing{
+    color: black;
+    height: 5vh;
+    width: 10vw;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;  
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60vh;
+    margin-left: -65vh;
+}

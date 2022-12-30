@@ -1,0 +1,212 @@
+body{
+
+    background-image: url(/foggyimage.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin: 0;
+}
+.fontTitle{
+
+    font-size: 10px;
+
+    color:black(35, 35, 35);
+
+    font-weight: bold;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    letter-spacing: .4PX;
+
+}
+
+.grid{
+
+    display: grid;
+
+}
+
+.flex{
+
+    display: flex;
+
+}
+
+.justify-center{
+
+    justify-content: center;
+
+}
+
+.container{
+
+    border-radius: 20px;
+
+    background-color: white;
+
+    width: 300px;
+
+   box-shadow: 0px 10px 20px 0px #313131;
+
+  height: 600px;
+
+    margin: 40px;
+
+    flex-direction: column;
+
+}
+
+.parent{
+
+    align-items: start;
+
+    justify-content: center;
+
+}
+
+.profile-pic{
+
+    
+    padding: 2px;
+    width: 100px;
+
+    height: 100px;
+
+    position: absolute;
+
+    margin-top: 25vh;
+
+}
+
+.imgBack{
+
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.imgProfile{
+
+    border-radius: 100%;
+    border-width: 1cm;
+    border-color: aliceblue;
+
+}
+
+.name{
+
+    position: absolute;
+
+    margin-top: 47vh;
+
+
+
+}
+
+.underName{
+
+    text-align: center;
+
+    color: black;
+
+}
+
+.hr{
+
+   width:100%;
+
+   color:#989898;
+
+ 
+
+}
+
+#hr1{
+
+    margin-top: 40px;
+
+
+
+}
+
+.PFF{
+
+   
+
+    justify-content: space-around;
+
+
+
+}
+
+.PFF>H1{
+
+    font-size: 11px;
+
+    margin: 0 0 0 10;
+
+    padding: 0;
+
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+.PFF>h2{
+
+    font-size: 11px;
+
+    margin: 0 0 0 10;
+
+    padding: 0;
+
+    text-align: center;
+
+    justify-content: center;
+
+    color: blue;
+
+}
+
+.button{
+
+    background-color: blue;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 140px;
+
+    height: 40px;
+
+    height:40px;
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 13px;
+
+    letter-spacing: .4px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttonParent{
+
+    justify-content: center;
+
+}
+
+.PFF h1{
+
+margin-right: 10px;
+
+}
+ 

@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.box{
+    color: aliceblue;
+    font-size:large;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-column: auto;
+    background-color: rgb(73, 5, 5);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tiger{
+    position: absolute;
+    height: 70px;
+    width: 80px; 
+    margin-top: 20vh; 
+    margin-left: 20vh;
+}
+.yak{
+    position: absolute;
+    height: 70px;
+    width: 70px;  
+    margin-top: 10px; 
+    margin-left: 50vh;
+}
+.fox{
+    position: absolute;
+    height: 70px;
+    width: 75px;  
+    margin-top: 30vh; 
+    margin-left: 100vh;
+}
+.lion{
+    position: absolute;
+    height: 70px;
+    width: 80px;  
+    margin-top: 80vh; 
+    margin-left: 5vh;
+}
+.giraffe{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    margin-top: 75vh;
+    margin-left:30vh
+    
+    
+}
+.leopard{
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    margin-top: 90vh;
+    margin-left:120vh;
+   
+}
+.rhinosauraus{
+    position: absolute;
+    height: 60px;
+    width: 190px;
+    margin-top: 2vh;
+    margin-left:170vh;
+    
+}
+.elephant{
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    margin-top: 20vh;
+    margin-left:160vh;
+    
+}
+.iguana{
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    margin-top: 70vh;
+    margin-left:160vh;
+    
+}
+.tiger2{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    margin-top: 80vh;
+    margin-left:180vh;
+   
+}

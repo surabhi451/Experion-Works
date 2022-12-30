@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+}
+.body{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(24, 217, 105);
+    box-sizing: border-box;
+    display:flex;
+    
+    justify-content: flex-start;
+    align-items: flex-end;  
+}
+.bottom{
+    height: 30vh;
+    width: 100vw;
+    background-color:rgb(4, 243, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    height: 25vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aliceblue;
+    display: grid;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+}
+
+.key1{
+
+     height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     margin-bottom: 2px;
+     border-radius: 10px;
+     display: grid;
+     justify-content:flex-start;
+     align-items: center;
+     margin: 15px;  
+     margin-bottom: 55px;
+     
+
+}
+.key2{
+    position: absolute;
+    display: grid;
+     justify-content: center;
+     align-items: center;
+    height: 30px;
+    width: 185px;
+    border-radius: 10px;
+    background-color: rgb(24, 217, 105);
+    margin-left: 2vh;
+    margin-bottom: 70px;
+   
+
+}
+
+.key3{
+    
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     border-radius: 10px;
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 15px; 
+
+}
+    
+
+.block2{
+    height: 60vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aliceblue;
+    display: grid;
+    margin-left: 55vh;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.key4{
+
+    height: 30px;
+    width: 30px;
+    background-color:rgb(24, 217, 105);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: grid;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px;  
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+
+}
+ .key5{
+   position: absolute;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+   height: 30px;
+   width: 185px;
+   border-radius: 10px;
+   background-color: rgb(24, 217, 105);
+   margin-left: 2.7vh;
+   
+   margin-bottom: 12vh;
+   
+   
+
+}
+
+.key6{
+    
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     border-radius: 10px;
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px;
+     margin-top: 40px; 
+     margin-bottom:60px;
+}  
+
+.key7{
+
+    height: 30px;
+    width: 30px;
+    background-color:rgb(24, 217, 105);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: grid;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px;  
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+    
+
+}
+ .key8{
+   position: absolute;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+   height: 30px;
+   width: 185px;
+   border-radius: 10px;
+   background-color: rgb(24, 217, 105);
+   margin-left: 2.7vh;
+   margin-bottom: 43vh;
+   
+
+}
+.key9{
+    
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     border-radius: 10px;
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px; 
+     margin-top: 60px;
+     margin-bottom: 40px;
+}  
+
+
+
+
+.block3{
+    height: 60vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aliceblue;
+    display: grid;
+    margin-left: 120vh;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.key10{
+
+    height: 30px;
+    width: 30px;
+    background-color:rgb(24, 217, 105);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: grid;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px;  
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+
+}
+ .key11{
+   position: absolute;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+   height: 30px;
+   width: 185px;
+   border-radius: 10px;
+   background-color: rgb(24, 217, 105);
+   margin-left: 2.7vh;
+   
+   margin-bottom: 12vh;
+   
+   
+
+}
+
+.key12{
+    
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     border-radius: 10px;
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px;
+     margin-top: 40px; 
+     margin-bottom:60px;
+}  
+
+.key13{
+
+    height: 30px;
+    width: 30px;
+    background-color:rgb(24, 217, 105);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: grid;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px;  
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+    
+
+}
+ .key14{
+   position: absolute;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+   height: 30px;
+   width: 185px;
+   border-radius: 10px;
+   background-color: rgb(24, 217, 105);
+   margin-left: 2.7vh;
+   margin-bottom: 43vh;
+   
+
+}
+.key15{
+    
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     border-radius: 10px;
+     display: grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px; 
+     margin-top: 60px;
+     margin-bottom: 40px;
+}  
+
+.block4{
+    height: 25vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aliceblue;
+    display: grid;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 173vh;
+}
+
+.key16{
+
+    height: 30px;
+     width: 30px;
+     background-color:rgb(24, 217, 105);
+     margin-bottom: 2px;
+     border-radius: 10px;
+     display: grid;
+     justify-content:flex-start;
+     align-items: center;
+     margin: 15px;  
+     margin-bottom: 55px;
+     margin-left: 3.5vh;
+    
+
+}
+.key17{
+   position: absolute;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+   height: 30px;
+   width: 185px;
+   border-radius: 10px;
+   background-color: rgb(24, 217, 105);
+   margin-left: 2vh;
+   margin-bottom: 70px;
+   margin-left: 3.5vh;
+  
+
+}
+
+.key18{
+   
+   height: 30px;
+    width: 30px;
+    background-color:rgb(24, 217, 105);
+    border-radius: 10px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px; 
+    margin-left: 3.5vh;
+
+}
+   
+
